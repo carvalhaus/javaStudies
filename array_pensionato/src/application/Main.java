@@ -18,9 +18,8 @@ public class Main {
         sc.nextLine();
 
         for (int i = 0; i < roomsToRent; i++) {
-            System.out.printf("Rent #%d: %n ", i + 1);
+            System.out.printf("Rent #%d: %n", i + 1);
             System.out.print("Name: ");
-
             String name = sc.nextLine();
 
             System.out.print("Email: ");
